@@ -8,6 +8,10 @@ section{
   width: 8vw;
 }
 
+.nav-link{
+  font-size: 70%;
+}
+
 #focusWeak, #focusStrong{
   color: #FFF;
 }
