@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+/* GLOBAL STYLES */
+:root {
+  --colorPrimary: #d4f3af;
+  --colorSecondary: #412673;
+  --colorTertiary: #e82e5e;
+  --colorQuartiary: #fdffa4;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 2rem !important;
+  line-height: 2rem !important;
+  font-weight: 500 !important;
+}
+
+.ctaBtnModelA,
+.ctaBtnModelB {
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--colorSecondary);
+  border-radius: 0.3rem;
+  text-align: center;
+  font-size: 70%;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.3rem 1rem;
+
+  transition: 1s;
+}
+
+.ctaBtnModelA {
+  background-color: var(--colorPrimary);
+}
+
+.ctaBtnModelB {
+  background-color: var(--colorSecondary);
+}
+
+.ctaBtnModelB:hover {
+  background: linear-gradient(40deg, var(--colorSecondary) 50%, #705c8c);
+}

@@ -1,0 +1,29 @@
+section{
+  color: var(--colorSecondary);
+  background-color: var(--colorPrimary);
+  background-image: url("../../../assets/textureBackground.png");
+}
+
+.logo{
+  width: 8vw;
+}
+
+#focusWeak, #focusStrong{
+  color: #FFF;
+}
+
+#focusWeak{
+  background-color: var(--colorTertiary);
+  padding: .2rem;
+  margin-right: .6rem;
+}
+
+#focusStrong{
+  font-size: 165%;
+  background-color: var(--colorSecondary);
+  padding: .2rem;
+}
+
+#textBig{
+  font-size: 150%;
+}
