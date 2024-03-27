@@ -1,0 +1,22 @@
+section{
+  color: var(--colorPrimary);
+  background-color: var(--colorSecondary);
+}
+
+#scoreList{
+  height: 20vh;
+  padding: 10vh 0;
+}
+
+.lowScore{
+  color: var(--colorTertiary);
+}
+
+.mediumScore{
+  font-size: 250%;
+  color: var(--colorQuartiary);
+}
+
+.highScore{
+  font-size: 500%;
+}

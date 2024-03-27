@@ -1,0 +1,6 @@
+div {
+  background-color: var(--colorPrimary);
+  color: var(--colorSecondary);
+
+  border-radius: 0.5rem;
+}
