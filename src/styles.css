@@ -17,6 +17,9 @@ body {
   font-size: 2rem !important;
   line-height: 2.5rem !important;
   font-weight: 500 !important;
+
+  background-image: url("/assets/textureBackground.png");
+  background-color: var(--colorPrimary) !important;
 }
 
 .ctaBtnModelA,

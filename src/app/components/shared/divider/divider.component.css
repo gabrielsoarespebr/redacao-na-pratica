@@ -1,0 +1,9 @@
+.dividerA {
+  border-top: 7vh solid transparent;
+  border-left: 98vw solid var(--colorSecondary);
+}
+
+.dividerB {
+  border-top: 7vh solid var(--colorSecondary);
+  border-left: 98vw solid transparent;
+}

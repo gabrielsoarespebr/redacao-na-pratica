@@ -1,33 +1,32 @@
-section{
+section {
   color: var(--colorSecondary);
-  background-color: var(--colorPrimary);
-  background-image: url("../../../assets/textureBackground.png");
 }
 
-.logo{
+.logo {
   width: 8vw;
 }
 
-.nav-link{
+.nav-link {
   font-size: 70%;
 }
 
-#focusWeak, #focusStrong{
-  color: #FFF;
+#focusWeak,
+#focusStrong {
+  color: #fff;
 }
 
-#focusWeak{
+#focusWeak {
   background-color: var(--colorTertiary);
-  padding: .2rem;
-  margin-right: .6rem;
+  padding: 0.2rem;
+  margin-right: 0.6rem;
 }
 
-#focusStrong{
+#focusStrong {
   font-size: 165%;
   background-color: var(--colorSecondary);
-  padding: .2rem;
+  padding: 0.2rem;
 }
 
-#textBig{
+#textBig {
   font-size: 150%;
 }
