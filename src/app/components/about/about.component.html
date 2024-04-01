@@ -19,7 +19,7 @@
       áreas:
     </p>
   </div>
-  <ul class="list-unstyled d-flex flex-column gap-5 my-5">
+  <ul class="list-unstyled d-flex flex-wrap justify-content-between gap-5 my-5">
     <li *ngFor="let approval of approvalList">
       <app-approval-card
         [approvalTitle]="approval.title"
@@ -28,7 +28,7 @@
       ></app-approval-card>
     </li>
   </ul>
-  <a href="#" class="text-uppercase mt-3 ctaBtnModelA">
+  <a href="#" class="mt-3 mb-5 text-uppercase ctaBtnModelA">
     Também quero conquistar minha aprovação</a
   >
 </section>

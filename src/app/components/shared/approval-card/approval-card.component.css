@@ -1,4 +1,6 @@
 div {
+  width: 30vw;
+
   background-color: var(--colorPrimary);
   color: var(--colorSecondary);
 
