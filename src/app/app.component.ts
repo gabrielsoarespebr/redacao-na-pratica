@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { PresentationComponent } from './components/presentation/presentation.component';
 import { AboutComponent } from './components/about/about.component';
 import { DividerComponent } from './components/shared/divider/divider.component';
+import { EnemComponent } from './components/enem/enem.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { DividerComponent } from './components/shared/divider/divider.component'
     PresentationComponent,
     AboutComponent,
     DividerComponent,
+    EnemComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

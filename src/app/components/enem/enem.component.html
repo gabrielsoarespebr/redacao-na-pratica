@@ -1,0 +1,31 @@
+<section class="px-5 py-4">
+  <h1 class="fw-bold fs-1 mt-3 text-center text-uppercase">
+    Domine as 5 competências do Enem
+  </h1>
+  <div class="my-5 d-flex flex-column gap-5">
+    <p>
+      Você não precisa fazer o corretor gostar da sua
+      redação para ter uma boa nota.
+    </p>
+    <p>Os critérios de correção são objetivos, e não subjetivos. Isso significa que sua nota depende do cumprimento de regras, e não do gosto pessoal do corretor.</p>
+    <p>São cinco competências que você precisa demonstrar na redação do Enem, e cada uma delas varia de 0 a 200 pontos:</p>
+  </div>
+  <ul class="list-unstyled d-flex flex-column justify-content-between gap-5">
+    <li class="skillContainer" *ngFor="let skill of skillList; let id = index">
+      <div class="d-flex align-items-center">
+        <p class="skillCode">C{{ id + 1 }}</p>
+        <h2 class="skillTitle text-uppercase">{{ skill.title }}</h2>
+      </div>
+      <div class="skillBody d-flex flex-column gap-2">
+        <p [innerHTML]="skill.description"></p>
+        <ul *ngIf="skill.list.length > 0" class="skillItems">
+          <li *ngFor="let item of skill.list" [innerHTML]="item"></li>
+        </ul>
+        <p class="skillMistakes">Erros comuns: {{ skill.mistakes }}</p>
+      </div>
+    </li>
+  </ul>
+  <a href="#" class="mt-3 mb-5 text-uppercase ctaBtnModelB">
+    Quero dominar essas 5 competências</a
+  >
+</section>

@@ -1,0 +1,67 @@
+section {
+  color: var(--colorSecondary);
+}
+
+.skillContainer {
+  position: relative;
+  margin-top: 5vh;
+
+  & p {
+    margin: 0;
+  }
+}
+
+.skillCode,
+.skillTitle {
+  margin: 0;
+
+  background-color: var(--colorSecondary);
+  color: var(--colorPrimary);
+}
+
+.skillCode {
+  width: 10%;
+  aspect-ratio: 1/1;
+  font-size: 150%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  z-index: 2;
+
+  border-radius: 50%;
+}
+
+.skillTitle {
+  position: absolute;
+  z-index: 1;
+
+  width: 95%;
+  font-size: 100%;
+
+  margin-left: 5%;
+  padding: 1.5vh;
+  padding-left: 7%;
+
+  border-radius: 0 0.5rem 0 0;
+}
+
+.skillBody {
+  background-color: #fff;
+
+  border-radius: 0 0 0.5rem 0.5rem;
+
+  padding: 6vw 5vw 2vw 5vw;
+}
+
+.skillItems,
+.skillMistakes {
+  font-size: 70%;
+  line-height: 120%;
+}
+
+.skillMistakes {
+  color: var(--colorTertiary);
+}
