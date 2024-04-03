@@ -69,7 +69,7 @@ export class EnemComponent {
         'meio: como será feito?',
         'finalidade: para que será feito?',
       ],
-      mistakes: 'responsabilizar o governo por tudo.',
+      mistakes: 'propostas impossíveis, genéricas ou que responsabilizem o governo por tudo.',
     },
   ];
 }
