@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { EssayWritingSkill } from '../../interfaces/essay-writing-skill';
+import { EssayWritingSkillComponent } from '../shared/essay-writing-skill/essay-writing-skill.component';
 
 @Component({
   selector: 'app-enem',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, EssayWritingSkillComponent],
   templateUrl: './enem.component.html',
   styleUrl: './enem.component.css',
 })
@@ -62,7 +63,12 @@ export class EnemComponent {
       title: 'Proposta de intervenção',
       description:
         'O corretor avalia se você apresenta uma solução ao problema, <span class="text-decoration-underline">respeitando os direitos humanos</span> e <span class="text-decoration-underline">seguindo a estrutura</span>:',
-      list: ['agente: quem vai fazer?','ação: o que será feito?','meio: como será feito?','finalidade: para que será feito?'],
+      list: [
+        'agente: quem vai fazer?',
+        'ação: o que será feito?',
+        'meio: como será feito?',
+        'finalidade: para que será feito?',
+      ],
       mistakes: 'responsabilizar o governo por tudo.',
     },
   ];

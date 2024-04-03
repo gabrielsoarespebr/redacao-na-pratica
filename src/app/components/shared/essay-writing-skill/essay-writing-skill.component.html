@@ -1,0 +1,13 @@
+<div class="skillContainer">
+  <div class="d-flex align-items-center">
+    <p class="skillCode">C{{ id + 1 }}</p>
+    <h2 class="skillTitle text-uppercase">{{ skill.title }}</h2>
+  </div>
+  <div class="skillBody d-flex flex-column gap-2">
+    <p [innerHTML]="skill.description"></p>
+    <ul *ngIf="skill.list.length > 0" class="skillItems">
+      <li *ngFor="let item of skill.list" [innerHTML]="item"></li>
+    </ul>
+    <p class="skillMistakes">Erros comuns: {{ skill.mistakes }}</p>
+  </div>
+</div>
