@@ -6,6 +6,7 @@ import { AboutComponent } from './components/about/about.component';
 import { DividerComponent } from './components/shared/divider/divider.component';
 import { EnemComponent } from './components/enem/enem.component';
 import { CourseOverviewComponent } from './components/course-overview/course-overview.component';
+import { CompetitiveEdgeComponent } from './components/competitive-edge/competitive-edge.component';
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,8 @@ import { CourseOverviewComponent } from './components/course-overview/course-ove
     AboutComponent,
     DividerComponent,
     EnemComponent,
-    CourseOverviewComponent
+    CourseOverviewComponent,
+    CompetitiveEdgeComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

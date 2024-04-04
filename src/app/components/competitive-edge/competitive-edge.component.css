@@ -1,0 +1,32 @@
+section {
+  color: var(--colorSecondary);
+}
+
+.cardContainer {
+  width: 42vw;
+  height: 100%;
+  padding: 5vh 5vw;
+
+  background-color: var(--colorSecondary);
+  color: var(--colorPrimary);
+
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardIcon {
+  font-size: 400%;
+
+  width: auto;
+  height: auto;
+}
+
+.cardDescription {
+  font-size: 70%;
+  line-height: 120%;
+
+  text-align: center;
+}
