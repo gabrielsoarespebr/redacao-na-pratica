@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatIconModule } from '@angular/material/icon';
 import { CompetitiveEdge } from '../../interfaces/competitive-edge';
+import { CompetitiveEdgeCardComponent } from '../shared/competitive-edge-card/competitive-edge-card.component';
 
 @Component({
   selector: 'app-competitive-edge',
   standalone: true,
-  imports: [CommonModule, MatIconModule],
+  imports: [CommonModule, CompetitiveEdgeCardComponent],
   templateUrl: './competitive-edge.component.html',
   styleUrl: './competitive-edge.component.css',
 })
@@ -56,8 +56,7 @@ export class CompetitiveEdgeComponent {
     {
       icon: 'query_stats',
       title: 'Métricas',
-      description:
-        'Receba métricas para acompanhar sua evolução.',
+      description: 'Receba métricas para acompanhar sua evolução.',
     },
   ];
 }

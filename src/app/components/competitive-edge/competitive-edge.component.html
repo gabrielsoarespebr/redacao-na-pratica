@@ -1,21 +1,8 @@
 <section class="px-5 py-4">
   <h1 class="fw-bold fs-1 my-5 text-center text-uppercase">Diferenciais</h1>
-  <ul
-    class="list-unstyled d-flex flex-wrap justify-content-between gap-5 m-0"
-  >
+  <ul class="list-unstyled d-flex flex-wrap justify-content-between gap-5 m-0">
     <li *ngFor="let card of cardList">
-      <div class="cardContainer">
-        <mat-icon
-          class="cardIcon"
-          aria-hidden="false"
-          aria-label="Card icon"
-          [fontIcon]="card.icon"
-        ></mat-icon>
-        <p class="cardTitle text-uppercase text-center">{{ card.title }}</p>
-        <p class="cardDescription">
-          {{ card.description }}
-        </p>
-      </div>
+      <app-competitive-edge-card [card]="card"></app-competitive-edge-card>
     </li>
   </ul>
   <a href="#" class="text-uppercase ctaBtnModelB">
