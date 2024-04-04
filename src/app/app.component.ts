@@ -5,6 +5,7 @@ import { PresentationComponent } from './components/presentation/presentation.co
 import { AboutComponent } from './components/about/about.component';
 import { DividerComponent } from './components/shared/divider/divider.component';
 import { EnemComponent } from './components/enem/enem.component';
+import { CourseOverviewComponent } from './components/course-overview/course-overview.component';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,8 @@ import { EnemComponent } from './components/enem/enem.component';
     PresentationComponent,
     AboutComponent,
     DividerComponent,
-    EnemComponent
+    EnemComponent,
+    CourseOverviewComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
