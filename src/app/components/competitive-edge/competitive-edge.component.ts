@@ -30,6 +30,12 @@ export class CompetitiveEdgeComponent {
         'Chega de ser atendido por robôs! Aqui você tem contato com gente de verdade!',
     },
     {
+      icon: 'handshake',
+      title: 'De igual pra igual',
+      description:
+        'Você não terá um professor, mas sim um estudante que passou por tudo que você está passando.',
+    },
+    {
       icon: 'savings',
       title: 'Custo-benefício',
       description:
@@ -42,10 +48,16 @@ export class CompetitiveEdgeComponent {
         'Investimos em qualidade, não em quantidade. Por isso, nossas vagas são limitadas.',
     },
     {
-      icon: 'handshake',
-      title: 'De igual pra igual',
+      icon: 'volume_up',
+      title: 'Correção em áudio',
       description:
-        'Você não terá um professor, mas sim um estudante que passou por tudo que você está passando.',
+        'Caso você prefira, também receberá comentários em áudio sobre a sua redação.',
+    },
+    {
+      icon: 'query_stats',
+      title: 'Métricas',
+      description:
+        'Receba métricas para acompanhar sua evolução.',
     },
   ];
 }
