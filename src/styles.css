@@ -1,6 +1,6 @@
 /* RESET CSS */
 
-*{
+* {
   margin: 0;
   padding: 0;
 
@@ -47,6 +47,10 @@ body {
 .ctaBtnModelA {
   color: var(--colorSecondary);
   background-color: var(--colorPrimary);
+}
+
+.ctaBtnModelA:hover {
+  background: linear-gradient(40deg, var(--colorPrimary) 50%, #bdfc70);
 }
 
 .ctaBtnModelB {
