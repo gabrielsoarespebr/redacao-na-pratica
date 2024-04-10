@@ -1,0 +1,61 @@
+<div class="planContainer rounded-3">
+  <div class="tagOnSale">
+    <p class="text-uppercase">Desconto</p>
+    <p class="planDiscount">R${{ plan.priceDiscount }}</p>
+  </div>
+  <div class="p-3">
+    <h3 class="planTitle text-uppercase">Mensal</h3>
+    <div class="planBody mt-4">
+      <p class="m-0">Público alvo:</p>
+      <ul class="list-unstyled">
+        <li class="d-flex" *ngFor="let targetAudience of plan.targetAudience">
+          <mat-icon
+            class="planIcon pt-2"
+            aria-hidden="false"
+            aria-label="Plan icon"
+            fontIcon="person"
+          ></mat-icon>
+          {{ targetAudience }}
+        </li>
+      </ul>
+
+      <p class="m-0 mt-4">Benefícios:</p>
+      <ul
+        class="list-unstyled d-flex flex-column justify-content-between gap-3"
+      >
+        <li class="d-flex" *ngFor="let benefit of plan.benefitList">
+          <mat-icon
+            class="planIcon pt-2"
+            aria-hidden="false"
+            aria-label="Plan icon"
+            fontIcon="check"
+          ></mat-icon>
+          <p>{{ benefit }}</p>
+        </li>
+      </ul>
+      <div class="mcDonaldsContainer my-5">
+        <p class="text-uppercase">Sua aprovação custa menos</p>
+        <img src="../../../assets/McDonalds.png" alt="McDonalds" class="w-75" />
+        <p class="text-uppercase">
+          que {{ plan.mcDonaldsAmount }} McLanches Felizes
+        </p>
+      </div>
+      <div class="text-center">
+        <p class="m-0">
+          de
+          <span class="text-decoration-line-through"
+            >R${{ plan.priceBefore }}</span
+          >
+          por apenas
+        </p>
+        <p class="planPrice">R${{ plan.price }}</p>
+        <p class="planDetail1">MENSAIS</p>
+        <p class="planDetail2">(PAGAMENTO ANTECIPADO NO PIX)</p>
+      </div>
+    </div>
+  </div>
+
+  <a href="#" class="text-uppercase ctaBtnModelB m-auto">
+    Esse é o meu plano!</a
+  >
+</div>
