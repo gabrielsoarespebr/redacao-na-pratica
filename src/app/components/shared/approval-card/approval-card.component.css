@@ -1,8 +1,13 @@
 div {
-  width: 30vw;
+  width: 28vw;
 
   background-color: var(--colorPrimary);
   color: var(--colorSecondary);
 
   border-radius: 0.5rem;
+}
+
+p{
+  font-size: 70%;
+  line-height: 100%;
 }
