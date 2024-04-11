@@ -18,6 +18,7 @@
       Você conhece alguém que acertou todas as questões de Naturezas, Matemática
       ou Humanas?
     </p>
+    <p>Provavelmente não.</p>
     <p>
       Mas com certeza já viu notícias sobre estudantes com redação nota 1000.
       Todo ano tem alguém que se destaca pela nota máxima.
@@ -29,8 +30,8 @@
       </span>
     </p>
   </div>
-  <ul class="d-flex justify-content-around">
-    <li class="list-unstyled" *ngFor="let plan of planList">
+  <ul class="d-flex justify-content-between px-3">
+    <li class="list-unstyled mt-5" *ngFor="let plan of planList">
       <app-plan-card [plan]="plan"></app-plan-card>
     </li>
   </ul>
