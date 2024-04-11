@@ -24,7 +24,7 @@ export class EnemComponent {
     {
       title: 'Compreensão do tema + Estrutura',
       description:
-        'O corretor avalia se você aborda o tema em uma <span class="text-decoration-underline">estrutura dissetativo-argumentativa</span>:',
+        'Essa é a competência mais importante, tendo em vista que o corretor avalia se você <span class="text-decoration-underline">aborda o tema em uma estrutura dissetativo-argumentativa</span>:',
       list: [
         'a parte dissertativa exige que você <span class="text-decoration-underline">exponha seu ponto de vista</span>',
         'a parte argumentativa exige que você <span class="text-decoration-underline">justifique por que pensa dessa forma</span>',
@@ -49,7 +49,7 @@ export class EnemComponent {
     {
       title: 'Coesão + Coerência',
       description:
-        'O corretor avalia se você utiliza os <span class="text-decoration-underline">conectivos certos</span> para dar mais fluidez à leitura da sua redação. São exemplos de conectivos:',
+        'A competência mais fácil! O corretor avalia se você utiliza os <span class="text-decoration-underline">conectivos certos</span> para dar mais fluidez à leitura da sua redação. São exemplos de conectivos:',
       list: [
         'primeiramente',
         'inclusive',
