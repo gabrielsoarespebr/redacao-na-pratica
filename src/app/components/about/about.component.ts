@@ -21,13 +21,13 @@ export class AboutComponent {
     {
       title: 'Humanas',
       description:
-        'Em 2017.2, fui aprovado no curso de Direito na UNICAP pelo ProUni. Graduação concluída com ótimo coeficiente de rendimento e nota máxima no Trabalho de Conclusão de Curso (TCC).',
+        'Em 2017.2, fui aprovado no curso de Direito na UNICAP pelo ProUni. Graduação concluída com ótimo coeficiente de rendimento, experiência em estágios e nota máxima no Trabalho de Conclusão de Curso (TCC).',
       imgUrl: 'assets/approvalLaw.jpg',
     },
     {
       title: 'Tecnologia',
       description:
-        'Em 2022.1, fui aprovado no curso de Análise e Desenvolvimento de Sistemas no IFPE pelo processo seletivo interno, utilizando a nota do Enem. Desde então, sigo me aprofundando nessa área.',
+        'Em 2022.1, fui aprovado no curso de Análise e Desenvolvimento de Sistemas no IFPE em ampla concorrência pelo processo seletivo interno, utilizando a nota do Enem. Desde então, sigo me aprofundando nessa área.',
       imgUrl: 'assets/approvalTechnology.jpg',
     },
   ];
