@@ -10,13 +10,37 @@ section{
 
 .lowScore{
   color: var(--colorTertiary);
+
+  &>div{
+    background-color: var(--colorTertiary);
+
+    height: 12vh;
+
+    margin-top: 1vh;
+  }
 }
 
 .mediumScore{
   font-size: 250%;
   color: var(--colorQuartiary);
+
+  &>div{
+    background-color: var(--colorQuartiary);
+
+    height: 24vh;
+
+    margin-top: 4vh;
+  }
 }
 
 .highScore{
   font-size: 500%;
+
+  &>div{
+    background-color: var(--colorPrimary);
+
+    height: 36vh;
+
+    margin-top: 8vh;
+  }
 }
